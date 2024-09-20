@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0; 
+}
+
+.file-compare-container {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: bisque;
+  width: 500px; 
+  height: auto; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.space-btn-file {
+  margin-top: 10px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px; 
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.response {
+  color: green;
+  margin-top: 10px;
+}
+
+input {
+  padding-left: 10px;
+}
